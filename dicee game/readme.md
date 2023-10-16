@@ -8,6 +8,7 @@
   <li><a href="https://www.w3schools.com/js/js_if_else.asp">IF-ELSE concept</a></li>
 </ul>
 <h3>FOR FRONTEND</h3>
+<a href="https://www.w3schools.com/js/js_random.asp">Math.floor and Math.random</a>
 <p>We used Html, css </p>
 
 <p>I hope you will like this project.</p>
