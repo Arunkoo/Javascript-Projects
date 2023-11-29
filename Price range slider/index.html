@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Price range slider/style.css">
+    <title>Price range slider</title>
+</head>
+<body>
+    <div class="main">
+        <header>
+            <h2>Price Range Slider</h2>
+            <p>Use slider or enter Max or Min value</p>
+        </header>
+        <div class="PriceInput">
+            <div class="pricefield">
+                <span>Min</span>
+                <input type="number" class="Min_input" value="2500">
+            </div>
+            <div class="custom_wrapper">-</div>
+            <div class="pricefield">
+                <span>Max</span>
+                <input type="number" class="Max_input" value="6500">
+            </div>
+        </div>
+        <div class="slider">
+            <div class="progress"></div>
+        </div>
+        <!-- range input -->
+        <div class="range_input">
+            <input type="range" class="min_range" min="0" max="10000" value="2500" step="100">
+            <input type="range" class="max_range" min="0" max="10000" value="6500" step="100">
+        </div>
+    </div>
+    <script src="/Price range slider/index.js"></script>
+</body>
+</html>
